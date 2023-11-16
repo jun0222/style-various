@@ -1,0 +1,19 @@
+header {
+  background-color: red;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  background-color: lightblue;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: yellow;
+}

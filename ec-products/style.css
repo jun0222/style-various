@@ -1,0 +1,20 @@
+header {
+  background-color: red;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  background-color: lightgreen;
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: yellow;
+}

@@ -1,0 +1,19 @@
+header {
+  background-color: red;
+}
+
+article {
+  background-color: blue;
+  float: left;
+  width: 70%;
+}
+
+aside {
+  background-color: green;
+  float: right;
+  width: 30%;
+}
+
+footer {
+  background-color: yellow;
+}
