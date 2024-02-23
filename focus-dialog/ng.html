@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Header Menu Example - NG</title>
+    <style>
+      .menu-container {
+        position: relative;
+      }
+
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+      }
+
+      .menu-container:hover .dropdown-menu {
+        display: block;
+      }
+
+      .menu-item {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu-container">
+      Hover here for menu
+      <div class="dropdown-menu">
+        <a href="#" class="menu-item">Profile</a>
+        <a href="#" class="menu-item">My Account</a>
+        <a href="#" class="menu-item">Logout</a>
+      </div>
+    </div>
+  </body>
+</html>
